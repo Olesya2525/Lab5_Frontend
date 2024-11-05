@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(164, 76, 147);
+    margin: 0; 
+}
+
+h1 {
+    color: indigo;
+    margin-left: 20px;
+}
+
+a {
+    margin-left: 50px;
+}
+
+li {
+    color: blue;
+}
+
+.content {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px; 
+    margin: 20px;
+    background-color: rgba(177, 236, 249, 0.8);
+    border-radius: 10px;
+}
+
+.content-left {
+    width: 60%; 
+    background-color: rgba(146, 158, 236, 0.875);
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content-right {
+    width: 35%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(146, 158, 236, 0.875);
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-image{
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    background-color: #ffb9fc; 
+    text-align: center; /* Центрирование содержимого по горизонтали */
+    padding: 20px;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #af4c74; 
+    margin: 0 auto; /* Центрирование блока по горизонтали */
+}
+.centered-image {
+    width: 200px;
+    display: block; /* Делает изображение блочным элементом */
+    margin: 20px auto; /* Центрирование изображения по горизонтали */
+}
+.container-2 {
+    background-color: #b787f6; /* Цвет фона для внешнего контейнера */
+    height: 400px; /* Высота контейнера больше высоты внутреннего блока */
+    display: flex; 
+    align-items: center; /* Центрирование по вертикали */
+    
+    justify-content: center; /* Центрирование по горизонтали */
+}
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #c84699; /* Цвет фона для внутреннего блока */
+}
+.container-3 {
+    display: flex; 
+    flex-wrap: wrap; /* Автоматический перенос элементов на новую строку */
+    justify-content: space-between; /* Равномерное распределение элементов */
+    background-color: #e668e4dc; 
+    border: 2px solid #e326cdaa; 
+    padding: 10px; /* Отступы внутри контейнера */
+}
+.block-3 {
+    width: 200px; 
+    height: 200px; 
+    background-color: #af4c87; 
+    margin-bottom: 10px; /* Отступ между строками блоков */
+}
+
+/* Стили для диагональных квадратов */
+.diagonal-container {
+    position: relative; /* Устанавливаем контекст позиционирования */
+    height: 300px; /* Высота контейнера для квадратов */
+}
+
+.square {
+    position: absolute; /* Используем абсолютное позиционирование */
+    background-color: transparent; 
+    border: 5px solid; 
+}
+
+.red {
+    border-color: red; 
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.blue {
+    border-color: blue; /* Цвет контура для синего квадрата */
+    width: 100px;
+    height: 100px;
+    top: 50px; 
+    left: 50px;
+}
+
+.green {
+    border-color: green; /* Цвет контура для зеленого квадрата */
+    width: 100px;
+    height: 100px;
+    top: 100px; 
+    left: 100px; 
+}
+/* Фиксированное изображение*/
+.fixed-cat {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    width: 100px;
+    height: 100px; 
+}
+
+  
